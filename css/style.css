@@ -10,8 +10,8 @@ html {
     font-family: 'Fredoka', sans-serif;
 }
 
-clearfix::after{
-    content:" ";
+.clearfix::after {
+    content: " ";
     display: table;
     clear: both;
 }
@@ -19,7 +19,7 @@ clearfix::after{
 /* Main section */
 
 .container {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
 }
@@ -27,6 +27,7 @@ clearfix::after{
 
 header {
     color: #E53170;
+    padding-top: 15px;
 }
 
 p {
@@ -35,8 +36,31 @@ p {
 
 .card {
     width: 30%;
-    height: 100px;
-    border: 1px solid red;
+    height: 90px;
     margin: 10px;
     float: left;
+    background-color: black;
+    box-shadow: 0px 0px 5px grey;
+}
+
+
+img {
+    /* width: calc(100% / 3)    */
+    width: 95px;
+    height: 100%;
+    /* min-width: 100px; */
+    float: left;
+}
+
+.contact-info {
+    font-size: 10px;  
+    text-align: left;
+    margin: 10px;
+    line-height: 150%; 
+    margin-left: 110px;
+    color: white; 
+}
+
+.email {
+    color: #48B0DA; 
 }
